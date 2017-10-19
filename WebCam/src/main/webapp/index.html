@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../images/favicon.ico">
+
+    <title>WatchFlow Admin</title>
+  
+	<!-- Bootstrap 3.3.7 -->
+	<link rel="stylesheet" href="../../assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="../../assets/vendor_components/font-awesome/css/font-awesome.min.css">
+
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="../../assets/vendor_components/Ionicons/css/ionicons.min.css">
+
+	<!-- Theme style -->
+	<link rel="stylesheet" href="../../css/master_style.css">
+
+	<!-- bonitoadmin Skins. Choose a skin from the css/skins
+	   folder instead of downloading all of them to reduce the load. -->
+	<link rel="stylesheet" href="../../css/skins/_all-skins.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="../../index.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>W</b></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Watch Flow</b></span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+		  <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-cog fa-spin"></i>
+            </a>
+            <ul class="dropdown-menu scale-up">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="../../images/user2-160x160.jpg" class="rounded float-left" alt="User Image">
+
+                <p>
+                 어디건물 건물주님
+                </p>
+              </li>
+              <!-- Menu Body -->
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-block btn-primary">내 정보</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-block btn-danger">로그아웃</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Tasks: style can be found in dropdown.less -->
+          
+		  
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+		  <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+      </div>
+      
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        
+        
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>분석</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> 실시간 분석</a></li>
+            <li><a href="chart.html"><i class="fa fa-circle-o"></i> 기간별 분석</a></li>
+          </ul>
+        </li>
+        
+        
+      </ul>
+    </section>
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        실시간 분석
+      </h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> 홈</a></li>
+        <li class="breadcrumb-item">분석</li>
+		<li class="breadcrumb-item active">실시간 분석</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <div class="row">
+        <div class="col-sm-9">
+  			<img alt="" id="videoImg" style="width: 100%;"/>
+        </div>
+        <!-- /.col -->
+        <div class=" col-sm-3">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="ion ion-person-stalker"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">332,129</span>
+              <span class="info-box-text">오늘 유동인구</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="ion ion-person-stalker"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">189,414</span>
+              <span class="info-box-text">남성</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="ion ion-person-stalker"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">132,715</span>
+              <span class="info-box-text">여성</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+        <!-- fix for small devices only -->
+        <div class="clearfix visible-sm-block"></div>
+
+        </div>
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="pull-right d-none d-sm-inline-block">
+    </div>Copyright &copy; 2017 <a href="https://www.multipurposethemes.com/">Watch Flow</a>. All Rights Reserved.
+  </footer>
+
+  
+  
+  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+	<!-- jQuery 3 -->
+	<script src="../../assets/vendor_components/jquery/dist/jquery.min.js"></script>
+	
+	<!-- popper -->
+	<script src="../../assets/vendor_components/popper/dist/popper.min.js"></script>
+	
+	<!-- Bootstrap 4.0 -->
+	<script src="../../assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<!-- SlimScroll -->
+	<script src="../../assets/vendor_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+	
+	<!-- FastClick -->
+	<script src="../../assets/vendor_components/fastclick/lib/fastclick.js"></script>
+	
+	<!-- bonitoadmin App -->
+	<script src="../../js/template.js"></script>
+	
+	<!-- bonitoadmin for demo purposes -->
+	<script src="../../js/demo.js"></script>
+	
+	<script src="../../js/main.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,154 @@
+/*---Skin: Green---*/
+
+.skin-green .main-header .navbar {
+  background-color: #33bf7a;
+}
+.skin-green .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .nav > li > a:hover,
+.skin-green .main-header .navbar .nav > li > a:active,
+.skin-green .main-header .navbar .nav > li > a:focus,
+.skin-green .main-header .navbar .nav .open > a,
+.skin-green .main-header .navbar .nav .open > a:hover,
+.skin-green .main-header .navbar .nav .open > a:focus,
+.skin-green .main-header .navbar .nav > .active > a,
+.skin-green.layout-top-nav .mega-dropdown > a.nav-link.dropdown-toggle:hover{
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  background-color: #27a768;
+}
+@media (max-width: 767px) {
+  .skin-green .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a:hover {
+    background: #27a768;
+  }
+}
+.skin-green .main-header .logo {
+  background-color: #27a768;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-green .main-header .logo:hover {
+  background-color: #33bf7a;
+}
+.skin-green .main-header li.user-header {
+  background-color: #fff;
+}
+.skin-green .content-header {
+  background: #fff;
+}
+.skin-green .content {
+  background: #f2f6f8;
+}
+.skin-green .wrapper,
+.skin-green .main-sidebar,
+.skin-green .left-side {
+  background-color: #2f323e;
+  box-shadow: 1px 0px 20px rgba(0,0,0,0.08);
+}
+.skin-green .user-panel > .info,
+.skin-green .user-panel > .info > a {
+  color: #fff;
+}
+
+.skin-green .sidebar-menu > li.header {
+  color: #333;
+  background: #fff;
+}
+.skin-green .sidebar-menu > li > a {
+  border-left:none;
+}
+.skin-green .sidebar-menu > li:hover > a,
+.skin-green .sidebar-menu > li.active > a,
+.skin-green .sidebar-menu > li.menu-open > a {
+  color: #ffffff;
+  background: #33bf7a;
+}
+.skin-green .sidebar-menu > li.active > a {
+  border-left-color: #33bf7a;
+}
+.skin-green .sidebar-menu > li > .treeview-menu {
+  margin: 0 0px;
+  background: #2f323e;
+}
+.skin-green .sidebar a {
+  color: #97999f;
+}
+.skin-green .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-green .sidebar-menu .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-green .sidebar-menu .treeview-menu > li.active > a,
+.skin-green .sidebar-menu .treeview-menu > li > a:hover {
+  color: #fff;
+}
+.skin-green .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #898989;
+}
+.skin-green .sidebar-form input[type="text"],
+.skin-green .sidebar-form .btn {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.59);
+  border: 1px solid rgba(0, 0, 0, 0.59);
+  height: 35px;
+}
+.skin-green .sidebar-form input[type="text"] {
+  color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-green .sidebar-form input[type="text"]:focus,
+.skin-green .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  color: #fff;
+}
+.skin-green .sidebar-form .btn {
+  color: #97999f;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-green.layout-top-nav .main-header > .logo {
+  background-color: #27a768;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-green.layout-top-nav .main-header > .logo:hover {
+  background-color: #33bf7a;
+}
+.skin-green .btn-blue{
+	background-color: #33bf7a;
+	color: #fff;
+	border: 1px solid #33bf7a;
+}
+.skin-green .btn-blue:hover{
+	background-color: #fff;
+	color: #33bf7a;	
+}
+.horizontal-menu .skin-green.layout-top-nav .sidebar-menu > li.active > a {
+    background: #33bf7a;
+	color: #fff;
+}
