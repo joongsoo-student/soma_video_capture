@@ -7,7 +7,24 @@
 	
 	var socket = new WebSocket(url);
 	
+	 setInterval(requestFrame ,100);
+	 
+	socket.onmessage = function(event) {
+		img.src=window.URL.createObjectURL(event.data);
+	}
 	
+	function requestFrame(){
+       socket.send( new Blob([new Uint8Array([])]));	
+	}
+	
+		
+		
+
+	
+
+	
+
+  
 	socket.onclose = function (event) {
         var reason;
         
@@ -38,30 +55,10 @@
         else if(event.code == 1015)
             reason = "The connection was closed due to a failure to perform a TLS handshake (e.g., the server certificate can't be verified).";
         else
-            reason = "Unknown reason";
+            reason = "Unknown reason";ø
 
         console.log(reason);
-    };
-    
-	 setInterval(requestFrame ,100);
-	 
-	socket.onmessage = function() {
-		img.src=window.URL.createObjectURL(event.data);
-	}
-	
-	function requestFrame(){
-       socket.send( new Blob([new Uint8Array([])]));	
-	}
-	
-		
-		
-	
-	
-
-	
-
-  
-     
+    }; 
 	
 	
 	

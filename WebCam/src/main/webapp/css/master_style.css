@@ -7735,3 +7735,8 @@ table.dataTable thead .sorting:after {
 @media (max-width:768px) {
 	* > .info-box:first-child { margin-top: 30px; }
 }
+
+.image-preload {
+	display: none;
+}
+

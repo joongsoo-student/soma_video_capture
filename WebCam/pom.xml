@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>kr.devdogs</groupId>
+	<groupId>com.deepeyelab</groupId>
 	<artifactId>Webcam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -59,6 +59,67 @@
 			<scope>test</scope>
 			<version>2.4</version>
 		</dependency>
+		
+		<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-compute</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-network</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-sql</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-storage</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-websites</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-svc-mgmt-media</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-servicebus</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-management-storage</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.microsoft.azure</groupId>
+	    <artifactId>azure-serviceruntime</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.microsoft.azure</groupId>
+		<artifactId>azure-storage</artifactId>
+		<version>5.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>commons-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>1.3.2</version>
+	</dependency>
 	</dependencies>
 
 	<build>
